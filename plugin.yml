@@ -1,0 +1,13 @@
+name: sjmEconomy
+version: 0.9
+description: economy; plugin; bukkit, minecraft
+author: SJMatthews
+main: sjmatthews.sjmEconomy.sjmEconomy
+
+commands:
+   sjmcnm:
+         description: sjmEconomy help
+         usage: |
+            /sjmcnm -p <player> <amount> (pays player amount)
+            /sjmcnm -b (displays balance)
+            /sjmcnm -b <player> (displays players' balance)
